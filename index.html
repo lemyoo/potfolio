@@ -5,52 +5,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Potfolio</title>
+    <title>Emmanuel and David's Portfolio</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
 
-<body>
-    <div id="navbar">
-        <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#wlecome-section">Welcome</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#profile-link">Profile</a></li>
-        </ul>
-    </div>
-    <section id="welcome-section">
-        <h1 id="welcome-text">
-            WELCOME TO MY POTFOLIO
-        </h1>
-        <div id="welcome-image">
-            <img src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZGV8ZW58MHx8MHx8&w=1000&q=80"
-                alt="code" width="400" height="auto">
-        </div>
-    </section>
-    <section id="projects">
-        <div class="grid-container">
-            <div class="grid-item ">
-                <div class="project-tile">
-                    A project
-                    <a href="www.google.com">google</a>
-                </div>
-            </div>
-            <div class="grid-item ">
-                <div class="project-tile">
-                    A project
-                    <a href="www.google.com">google</a>
-                </div>
-            </div>
-            <div class="grid-item ">
-                <div class="project-tile">
-                    A project
-                    <a href="www.google.com">google</a>
-                </div>
-            </div>
-        </div>
+<body>   
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome-section">About</a>
+        </li>
+        <li>
+          <a href="#projects">Work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav> 
+    <section id="welcome-section" class="welcome-section">
+      <h1>Hey, welcome to Emmanuel and David's portfolio page.</h1>
+      <p>David lives in Uganda and Emmanuel lives in Ghana and we are excited to be candidates for this learning experience.</p>
+    </section> 
 
+    <section id="projects" class="projects-section">
+      <h2 class="projects-section-header">These are some of our projects</h2>
+
+      <div class="projects-grid">
+        <a href="https://github.com/forLoop94/VScode_landing-page" target="_blank" class="project project-tile">
+          <p class="project-title">          
+            Microverse Product Landing Page           
+          </p>
+        </a>      
+        <a href="#" target="_blank" class="project project-tile">    
+          <p class="project-title">           
+            Microverse Tribute Page          
+          </p>
+        </a>
+      </div>      
     </section>
-    <a id="profile-link" href="https://github.com/lemyoo" target="_blank">GitHub</a>
 </body>
-
 </html>
